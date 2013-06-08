@@ -8,8 +8,8 @@ while true; do
 		sleep 15
 		UP=$(banshee --query-title)
 		GROUP=$(banshee --query-artist)
-		sed -i "s/seta songlist.*/seta songlist \"wellbourne (${GROUP} - ${UP})\""/ /home/chris/.nexuiz/data/namechange.cfg
+		sed -i "s/seta songlist.*/seta songlist \"wellbourne (${GROUP} - ${UP})\""/ /home/wellbourne/.nexuiz/data/namechange.cfg
 else
-		sed -i "s/seta songlist.*/seta songlist \"wellbourne (silent)\""/ /home/chris/.nexuiz/data/namechange.cfg
+		sed -i "s/seta songlist.*/seta songlist \"wellbourne (silent)\""/ /home/wellbourne/.nexuiz/data/namechange.cfg
 	fi
 done

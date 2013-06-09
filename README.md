@@ -1,12 +1,14 @@
 Changes your nexuiz username dependent on currently playing Banshee media file
 
 Step 1 - manually create the file ~/youruser/.nexuiz/data/namechange.cfg
+
 Step 2 - You will need to put in your autoexec.cfg file the following two lines
 alias update exec namechange.cfg
 bind k update
 
-Then run this script ./nexplayername.sh &
-and use the k key (or whatever you bound the alias update to) to update your username in game
+Step 3 - run this script ./nexplayername.sh &
+
+Step 4 - use the k key (or whatever you bound the alias update to) to update your username in game
 
 
 TODO

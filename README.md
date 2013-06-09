@@ -1,4 +1,4 @@
-# Changes your nexuiz username dependent on Banshee media file
+Changes your nexuiz username dependent on Banshee media file
 
 # You will need to manually create the file ~/youruser/.nexuiz/data/namechange.cfg
 # You will need to put in your autoexec.cfg file the following two lines

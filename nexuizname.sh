@@ -12,7 +12,7 @@ while true; do
 		TITLE=$(banshee --query-title)
 		GROUP=$(banshee --query-artist)
 		sed -i "s/seta songlist.*/seta songlist \"wellbourne (${GROUP} - ${TITLE})\""/ ~/.nexuiz/data/namechange.cfg
-    else
+    	else
 		sed -i "s/seta songlist.*/seta songlist \"wellbourne (silent)\""/ ~/.nexuiz/data/namechange.cfg
 	fi
 done

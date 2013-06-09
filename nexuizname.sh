@@ -9,7 +9,6 @@ fi
 while true; do
 	if [ "$(pidof banshee)" ]; then
 		sleep 1m 
-		#sleep 15
 		TITLE=$(banshee --query-title)
 		GROUP=$(banshee --query-artist)
 		sed -i "s/seta songlist.*/seta songlist \"wellbourne (${GROUP} - ${TITLE})\""/ ~/.nexuiz/data/namechange.cfg

@@ -6,7 +6,7 @@ while true; do
 		UP=$(banshee --query-title)
 		GROUP=$(banshee --query-artist)
 		sed -i "s/seta songlist.*/seta songlist \"wellbourne (${GROUP} - ${UP})\""/ /home/wellbourne/.nexuiz/data/namechange.cfg
-else
+	else
 		sed -i "s/seta songlist.*/seta songlist \"wellbourne (silent)\""/ /home/wellbourne/.nexuiz/data/namechange.cfg
 	fi
 done

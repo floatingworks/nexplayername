@@ -9,7 +9,8 @@
 # and use the k key (or whatever you bound the alias update to) to update your username in game
 # any comments 
 #
-#TODO if namechange.cfg doesnt exist, create it
+#TODO 	if namechange.cfg doesnt exist, create it
+#	use something like http://ubuntuforums.org/showthread.php?t=1562395 to make it non banshee specific	
 
 while true; do
 	if [ "$(pidof banshee)" ]; then

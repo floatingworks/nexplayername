@@ -2,7 +2,7 @@
 # Check readme for setup
 
 # if the namechange.cfg file doesnt exist create it.
-if [ ! -f /home/chris/.nexuiz/data/namechange.cfg ]; then 
+if [ ! -f ~/.nexuiz/data/namechange.cfg ]; then 
     echo 'seta songlist "wellbourne (silent)" ' > ~/.nexuiz/data/namechange.cfg
 fi
 

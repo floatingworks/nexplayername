@@ -1,8 +1,10 @@
 Changes your nexuiz username dependent on currently playing Banshee media file
 
-Step 1 - move the .cfg files to ~/.nexuiz/data/
+Step 1 - install Banshee if it isnt already installed
 
-Step 2 - run ./nexplayername.sh
+Step 2 - move the .cfg files to ~/.nexuiz/data/
+
+Step 3 - run ./nexplayername.sh
 
 
 Added
